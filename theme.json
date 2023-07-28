@@ -67,7 +67,11 @@
     },
     "useRootPaddingAwareAlignments": true
   },
-  "styles": {},
+  "styles": {
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--space-grotesk)"
+    }
+  },
   "templateParts": [
     {
       "area": "header",
