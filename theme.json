@@ -82,6 +82,14 @@
         "typography": {
           "fontWeight": "700"
         }
+      },
+      "core/site-title": {
+        "typography": {
+          "fontWeight": "700"
+        },
+        "color": {
+          "text": "var(--wp--preset--color--primary)"
+        }
       }
     }
   },
