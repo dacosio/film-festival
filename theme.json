@@ -85,7 +85,8 @@
       },
       "core/site-title": {
         "typography": {
-          "fontWeight": "700"
+          "fontWeight": "700",
+          "textDecoration": "none"
         },
         "color": {
           "text": "var(--wp--preset--color--primary)"
