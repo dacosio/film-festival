@@ -70,6 +70,19 @@
   "styles": {
     "typography": {
       "fontFamily": "var(--wp--preset--font-family--space-grotesk)"
+    },
+    "css": "body(line-height: 1.6;}",
+    "blocks": {
+      "core/heading": {
+        "typography": {
+          "fontWeight": "700"
+        }
+      },
+      "core/post-title": {
+        "typography": {
+          "fontWeight": "700"
+        }
+      }
     }
   },
   "templateParts": [
