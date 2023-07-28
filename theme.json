@@ -71,7 +71,7 @@
     "typography": {
       "fontFamily": "var(--wp--preset--font-family--space-grotesk)"
     },
-    "css": "body(line-height: 1.6;}; h1 a { text-decoration: none}",
+    "css": "body{line-height: 1.6;}; h1 a { text-decoration: none}",
     "blocks": {
       "core/heading": {
         "typography": {
