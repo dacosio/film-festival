@@ -29,3 +29,10 @@ This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
+
+Space Grotesk Font
+Copyright 2020 The Space Grotesk Project Authors (https://github.com/floriankarsten/space-grotesk) 
+This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL 
+License URL: https://scripts.sil.org/OFL 
+Source: https://fonts.floriankarsten.com
+-- End of Space Grotesk Font credits --
