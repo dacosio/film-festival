@@ -14,3 +14,90 @@ Text Domain: filmfestival
 Tags: full-site-editing, 
 */
 
+body {
+  line-height: 1.2;
+}
+
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wp-block-navigation-item__label:hover,
+.wp-block-navigation-item__label:active {
+  color: var(--wp--preset--color--primary);
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
+}
+
+.wp-block-site-title a {
+  font-size: 32px;
+}
+
+.wp-block-cover .wp-block-cover__image-background,
+.wp-block-cover video.wp-block-cover__video-background,
+.wp-block-cover-image .wp-block-cover__image-background,
+.wp-block-cover-image video.wp-block-cover__video-background {
+  background-color: black;
+  object-position: 75% 25%;
+}
+
+.wp-block-cover__inner-container h1.wp-block-heading {
+  font-size: 68px !important;
+  font-weight: 700;
+  margin-top: 3rem;
+}
+
+.wp-block-navigation__responsive-container
+  .wp-block-navigation__responsive-container-content,
+.wp-block-navigation__responsive-container-close {
+  padding-right: 2rem !important;
+}
+
+nav .wp-block-navigation__responsive-container .is-menu-open .has-modal-open {
+  background-color: var(--wp--preset--color--primary) !important;
+  border: 1px solid red;
+}
+
+.wp-block-cover__inner-container > .wp-block-group {
+  border-bottom: 8px solid var(--wp--preset--color--primary);
+}
+
+.wp-block-cover__inner-container p {
+  font-size: 36px !important;
+}
+
+@media only screen and (min-width: 600px) {
+  .wp-block-site-title a {
+    font-size: 56px;
+  }
+
+  .wp-block-cover__inner-container h1.wp-block-heading {
+    font-size: 100px !important;
+    margin-top: 8rem;
+  }
+
+  .wp-block-cover__inner-container p {
+    font-size: 36px !important;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .wp-block-site-title a {
+    font-size: 80px;
+  }
+
+  .wp-block-cover__inner-container h1.wp-block-heading {
+    font-size: 120px !important;
+    margin-top: 8rem;
+  }
+
+  .wp-block-cover__inner-container p {
+    font-size: 40px !important;
+  }
+}
