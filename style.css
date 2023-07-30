@@ -67,9 +67,9 @@ nav .wp-block-navigation__responsive-container .is-menu-open .has-modal-open {
 
 .wp-block-cover__inner-container > .wp-block-group {
   border-bottom: 8px solid var(--wp--preset--color--primary);
-  position: sticky;
+  /* position: sticky;
   top: 0;
-  z-index: 101;
+  z-index: 101; */
 }
 
 .wp-block-cover__inner-container p {
