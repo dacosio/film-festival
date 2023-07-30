@@ -16,6 +16,7 @@ Tags: full-site-editing,
 
 body {
   line-height: 1.2;
+  background-color: var(--wp--preset--color--base);
 }
 
 h1,
@@ -66,10 +67,39 @@ nav .wp-block-navigation__responsive-container .is-menu-open .has-modal-open {
 
 .wp-block-cover__inner-container > .wp-block-group {
   border-bottom: 8px solid var(--wp--preset--color--primary);
+  position: sticky;
+  top: 8px;
+  z-index: 101;
 }
 
 .wp-block-cover__inner-container p {
   font-size: 36px !important;
+}
+
+.single-film-info .wp-site-blocks .wp-block-template-part .wp-block-group {
+  border-bottom: 8px solid var(--wp--preset--color--primary);
+}
+
+.wp-site-blocks > * + * {
+  margin-block-start: 0;
+}
+
+.slick-arrow {
+  background-color: var(--wp--preset--color--primary) !important;
+}
+
+.wp-block-template-part.black-background {
+  background-color: var(--wp--preset--color--contrast-2);
+}
+
+.single-film-info .wp-site-blocks .wp-block-template-part {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.wp-block-cover {
+  padding: 0 !important;
 }
 
 @media only screen and (min-width: 600px) {
@@ -84,6 +114,23 @@ nav .wp-block-navigation__responsive-container .is-menu-open .has-modal-open {
 
   .wp-block-cover__inner-container p {
     font-size: 36px !important;
+  }
+
+  .single-film-info .wp-site-blocks .wp-block-template-part {
+    top: 45px;
+  }
+
+  .wp-block-cover__inner-container > .wp-block-group {
+    top: 45px;
+  }
+}
+
+@media only screen and (min-width: 782px) {
+  .single-film-info .wp-site-blocks .wp-block-template-part {
+    top: 30px;
+  }
+  .wp-block-cover__inner-container > .wp-block-group {
+    top: 30px;
   }
 }
 
