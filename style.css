@@ -102,6 +102,20 @@ nav .wp-block-navigation__responsive-container .is-menu-open .has-modal-open {
   padding: 0 !important;
 }
 
+.wp-block-navigation:not(.has-background)
+  .wp-block-navigation__responsive-container.is-menu-open {
+  background-color: var(--wp--preset--color--primary);
+  color: var(--wp--preset--color--base);
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.wp-block-navigation-item__label:hover,
+.wp-block-navigation-item__label:active {
+  color: var(--wp--preset--color--contrast);
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
+}
 @media only screen and (min-width: 600px) {
   .wp-block-site-title a {
     font-size: 56px;
