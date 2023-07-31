@@ -80,6 +80,9 @@ nav .wp-block-navigation__responsive-container .is-menu-open .has-modal-open {
   border-bottom: 8px solid var(--wp--preset--color--primary);
 }
 
+.wp-site-blocks .wp-block-template-part .wp-block-group {
+  border-bottom: 8px solid var(--wp--preset--color--primary);
+}
 .wp-site-blocks > * + * {
   margin-block-start: 0;
 }
@@ -112,9 +115,19 @@ nav .wp-block-navigation__responsive-container .is-menu-open .has-modal-open {
 
 .wp-block-navigation-item__label:hover,
 .wp-block-navigation-item__label:active {
-  color: var(--wp--preset--color--contrast);
+  color: var(--wp--preset--color--primary);
   text-decoration: underline;
   text-underline-offset: 0.5rem;
+}
+
+.current-menu-item a {
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
+  text-decoration-color: var(--wp--preset--color--primary);
+}
+
+.current-menu-item a span {
+  color: var(--wp--preset--color--primary);
 }
 @media only screen and (min-width: 600px) {
   .wp-block-site-title a {
