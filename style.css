@@ -159,7 +159,7 @@ nav .wp-block-navigation__responsive-container .is-menu-open .has-modal-open {
 }
 .kadence-video-popup-wrap {
   margin-top: 50px !important;
-  width: 900px !important;
+  width: 1024px !important;
   height: 100% !important;
 }
 @media only screen and (min-width: 600px) {
