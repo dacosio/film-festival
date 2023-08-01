@@ -149,6 +149,11 @@ nav .wp-block-navigation__responsive-container .is-menu-open .has-modal-open {
   margin: 0;
 }
 
+.wp-block-query .wp-block-post-template {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 @media only screen and (min-width: 600px) {
   .wp-block-site-title a {
     font-size: 56px;
