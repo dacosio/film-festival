@@ -129,6 +129,11 @@ nav .wp-block-navigation__responsive-container .is-menu-open .has-modal-open {
 .current-menu-item a span {
   color: var(--wp--preset--color--primary);
 }
+
+.page.page-id-48 .wp-block-query .wp-block-post .kt-inside-inner-col {
+  margin: auto !important;
+}
+
 @media only screen and (min-width: 600px) {
   .wp-block-site-title a {
     font-size: 56px;
