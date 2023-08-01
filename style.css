@@ -137,6 +137,10 @@ nav .wp-block-navigation__responsive-container .is-menu-open .has-modal-open {
   color: var(--wp--preset--color--primary);
 }
 
+.has-modal-open .current-menu-item a span {
+  color: var(--wp--preset--color--contrast);
+}
+
 .page.page-id-48 .wp-block-query .wp-block-post .kt-inside-inner-col {
   margin: auto !important;
 }
