@@ -155,10 +155,10 @@ nav .wp-block-navigation__responsive-container .is-menu-open .has-modal-open {
 }
 
 .kadence-video-intrinsice {
-  padding-bottom: 50%;
+  padding-bottom: 50% !important;
 }
 .kadence-video-popup-wrap {
-  margin-top: 50px;
+  margin-top: 50px !important;
 }
 @media only screen and (min-width: 600px) {
   .wp-block-site-title a {
