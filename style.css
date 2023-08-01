@@ -154,6 +154,12 @@ nav .wp-block-navigation__responsive-container .is-menu-open .has-modal-open {
   padding-right: 2rem;
 }
 
+.kadence-video-intrinsice {
+  padding-bottom: 50%;
+}
+.kadence-video-popup-wrap {
+  margin-top: 50px;
+}
 @media only screen and (min-width: 600px) {
   .wp-block-site-title a {
     font-size: 56px;
