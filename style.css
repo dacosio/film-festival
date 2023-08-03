@@ -80,8 +80,8 @@ nav .wp-block-navigation__responsive-container .is-menu-open .has-modal-open {
   border-bottom: 8px solid var(--wp--preset--color--primary);
 }
 
-.members
-  .is-flex-container
+.is-flex-container
+  .members
   .kb-row-layout-wrap
   .kt-row-column-wrap
   .kt-inside-inner-col
