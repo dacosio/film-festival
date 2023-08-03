@@ -181,6 +181,7 @@ nav .wp-block-navigation__responsive-container .is-menu-open .has-modal-open {
   object-fit: contain;
   width: 400px;
   height: auto;
+  border-radius: 12px;
 }
 
 .members .kb-row-layout-wrap .kt-inside-inner-col h2 a {
