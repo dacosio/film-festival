@@ -80,7 +80,7 @@ nav .wp-block-navigation__responsive-container .is-menu-open .has-modal-open {
   border-bottom: 8px solid var(--wp--preset--color--primary);
 }
 
-.members .kb-row-layout-wrap .wp-block-kadence-image img {
+.members .kb-row-layout-wrap .kt-inside-inner-col .wp-block-kadence-image img {
   /* max-height: 20px;
   object-fit: cover;
   border: 1px solid red; */
