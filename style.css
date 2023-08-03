@@ -26,7 +26,7 @@ h2 {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 .wp-block-navigation-item__label:hover,
@@ -179,6 +179,11 @@ nav .wp-block-navigation__responsive-container .is-menu-open .has-modal-open {
   width: 400px;
   height: 100%;
   border-radius: 30px;
+}
+
+.members .kb-row-layout-wrap .kt-inside-inner-col h2 a {
+  text-decoration: none;
+  color: var(--wp--preset--color--primary);
 }
 @media only screen and (min-width: 600px) {
   .wp-block-site-title a {
