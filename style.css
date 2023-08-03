@@ -177,7 +177,7 @@ nav .wp-block-navigation__responsive-container .is-menu-open .has-modal-open {
 .single-members .kb-row-layout-wrap .wp-block-kadence-image img {
   object-fit: contain;
   width: 400px;
-  height: 100%;
+  height: 600px;
   border-radius: 30px;
 }
 
